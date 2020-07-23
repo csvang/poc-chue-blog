@@ -1,0 +1,33 @@
+header {
+
+    h1 {
+        color: #2D343E;
+    }
+}
+
+nav {
+    margin-top: 15px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+.navLinkItem {
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #77A57A;
+        color: #FFF;
+    }
+}
+
+.active-navLinkItem {
+    background-color: #A577A2;
+    color: #FFF;
+}
+
